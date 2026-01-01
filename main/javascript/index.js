@@ -10,3 +10,7 @@ console.log(message + " there " + name);
 var tweet = prompt("Compose your tweet");
 var tweetCount = tweet.length;
 alert("You have written " + tweetCount + " characters, you have " + (140 - tweetCount) + " characters remaining");
+
+// found a shorter way
+var tweet = prompt("Compose your tweet");
+alert("You have written " + tweet.length + " characters, you have " + (140 - tweet.length) + " characters remaining");
