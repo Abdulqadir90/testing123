@@ -1,7 +1,24 @@
-body#red{
+/* body#red{
     background-color: red;
 }
 
 body#green{
     background-color: green;
 }
+
+body#blue{
+    background-color: blue;
+} */
+
+
+/* CSS not needed i thought it was due to specificity perhaps however
+javascript inline styles(style="") have higher priority than CSS rules
+but .... 
+
+body{
+background-color: blue !important;
+}
+
+will win because !important sits at the top of the cascade.
+Cascade = priority stystem
+a set of rules the browser uses to decide which style wins when more than 1 style applies to the same element
