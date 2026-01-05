@@ -1,0 +1,46 @@
+*{
+    background-color: wheat;
+    font-family:'Times New Roman', Times, serif
+}
+
+#name{
+    border: solid 4px black;
+    width: 80%;
+    height: 25px;
+    margin-top: 5px;
+    
+}
+
+#email{
+    border: solid 4px black;
+    width: 80%;
+    height: 25px;
+    margin-top: 5px;
+    
+}
+
+#subject{
+    border: solid 4px black;
+    width: 80%;
+    height: 25px;
+    margin-top: 5px;
+    
+}
+
+#message{
+    border: solid 4px black;
+    width: 80%;
+    height: 75px;
+    margin-top: 5px;
+    
+}
+
+#submit{
+    border: solid 4px black;
+    border-radius: 10px;
+    width: 20%;
+    height: 25px;
+    margin-top: 5px;
+
+    
+}
