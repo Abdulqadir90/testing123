@@ -7,53 +7,50 @@
     <title>Document</title>
 </head>
 <body>
+
     <h1>Contact Form</h1>
+
     <form>
 
     <div>
-        <label>
-            Full Name:<br>
-            <input type="text" id="name" placeholder="Your name...">
-        </label>
+        <label for="name"> Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name...">
     </div>
 
     <br>
 
     <div>
-        <label>
-            Email: <br>
-            <input type="text" id="email" placeholder="Your email address..">
-        </label>
+        <label for="name">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your email address..">
     </div>
 
     <br>
 
     <div>
-        <label>
-            Subject: <br>
-            <input type="text" id="subject" placeholder="Subject of your message...">
-        </label>
+        <label for="name">Subject:</label><br>
+        <input type="text" id="subject" name="subject" placeholder="Subject of your message...">
     </div>
 
     <br>
 
     <div>
-        <label>
-            Message:<br>
-            <textarea id="message" placeholder="Write you message"></textarea>
-        </label>
+        <label for="name">Message:</label><br>
+        <textarea id="message" placeholder="Write your message"></textarea>
     </div>
 
-<p>Subscribe to our newsletter</p>
-<p>Preferred Contact Method:</p>
+
+    <input type="checkbox" name="subscribe" id="subscribe">
+    <label for="subscribe">Subscribe to our newsletter</label>
+    <br>
+
+    <p>Preferred Contact Method:</p>
+
+<input type="radio" id="contact-email" name="contact-method">
+<label for="contact-email">Email</label>
+<input type="radio" id="contact-method" name="contact-method">
+<label for="contact-method">Phone number</label>
 
 <br>
-
-<p>Email</p>
-
-<br>
-
-<p>Phone number</p>
 
 <button type="submit" id="submit" >Send</button>
 
