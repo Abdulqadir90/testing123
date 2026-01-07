@@ -11,6 +11,22 @@
     
 }
 
+.outer-name{
+    color:orangered
+}
+
+.outer-email{
+    color:orangered
+}
+
+.outer-subject{
+    color:orangered
+}
+
+.outer-message{
+    color:orangered
+}
+
 #email{
     border: solid 4px black;
     width: 80%;
@@ -42,5 +58,6 @@
     height: 25px;
     margin-top: 5px;
 
-    
 }
+
+
