@@ -11,12 +11,12 @@
     
 }
 
-.outer-name{
-    color:orangered
+.outer-name > label {
+    color:violet
 }
 
-.outer-email{
-    color:orangered
+.outer-email > label {
+    color:darkgreen
 }
 
 .outer-subject{
